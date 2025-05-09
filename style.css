@@ -21,9 +21,9 @@ body {
 
   grid-area: header; 
 
-  background-color: #B10909
+  background-color: #B10909;
 
-  padding: 30px; 
+  padding: 30px;
 
   text-align: center; 
 
@@ -111,7 +111,7 @@ body {
 
   grid-area: footer; 
 
-  background-color: #B10909
+  background-color: #B10909;
 
   padding: 10px; 
 
