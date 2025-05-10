@@ -85,8 +85,10 @@ body {
 } 
 
     button { 
-        background-color: #181238;
-        color: rgb(222, 248, 177);
-        border: 1px solid #181238;;
+        background-color: #B10909;
+        color: #ffffff;
+        border: 1px solid #B10909;
         padding: 10px 20px; 
-        cursor: pointer; }
+        cursor: pointer;
+        font-size: 20px;
+    }
