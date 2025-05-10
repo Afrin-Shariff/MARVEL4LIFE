@@ -1,122 +1,69 @@
 * { 
-
   box-sizing: border-box; 
-
 } 
-
- 
 
 body { 
 
-  font-family: Avengero;
+  font-family: Stencil Std;
   color: #ffffff
-
 } 
-
- 
 
 /* Style the header */ 
 
 .header { 
-
   grid-area: header; 
-
   background-color: #B10909;
-
   padding: 30px;
-
   text-align: center; 
-
   font-size: 35px; 
-
 } 
-
- 
 
 /* The grid container */ 
 
 .grid-container { 
-
   display: grid; 
-
   grid-template-columns: repeat(6, 1fr); /* Explicitly define six equal columns */ 
-
   grid-template-areas:  
-
     "header header header header header header"  
-
     "left left middle middle right right"  
-
     "footer footer footer footer footer footer"; 
-
   gap: 10px; /* Use gap property for spacing between grid items */ 
 
 }  
-
- 
-
 .left, 
-
 .middle, 
-
 .right { 
-
   padding: 10px; 
-
 } 
-
- 
 
 /* Style the left column */ 
-
 .left { 
-
   grid-area: left; 
-
   /* Consider moving background styling from HTML to CSS */ 
-
   background-color: #B10909;
-
 } 
-
- 
 
 /* Style the middle column */ 
 
 .middle { 
-
   grid-area: middle; 
-
   background-color: #B10909;
-
 } 
-
- 
 
 /* Style the right column */ 
 
 .right { 
-
   grid-area: right; 
-
   background-color: #B10909;
-
 } 
-
- 
 
 /* Style the footer */ 
 
 .footer { 
-
   grid-area: footer; 
-
   background-color: #B10909;
-
   padding: 10px; 
-
   text-align: center; 
-
 } 
 
  
@@ -124,23 +71,22 @@ body {
 /* Responsive layout - stack columns on small screens */ 
 
 @media (max-width: 600px) { 
-
   .grid-container { 
-
     grid-template-columns: 1fr;  /* Single column for small screens */ 
-
     grid-template-areas:  
-
       "header"  
-
       "left"  
-
       "middle"  
-
       "right"  
-
       "footer"; 
 
   } 
 
 } 
+
+    button { 
+        background-color: #181238;
+        color: rgb(222, 248, 177);
+        border: 1px solid #181238;;
+        padding: 10px 20px; 
+        cursor: pointer; }
