@@ -12,7 +12,7 @@ body {
 
 .header { 
   grid-area: header; 
-  background-color: #B10909;
+  background-color: #7d0909;
   padding: 30px;
   text-align: center; 
   font-size: 35px; 
@@ -39,29 +39,31 @@ body {
 /* Style the left column */ 
 .left { 
   grid-area: left; 
-  /* Consider moving background styling from HTML to CSS */ 
-  background-color: #B10909;
+  background-color: #7d0909;
+  text-align: center;
 } 
 
 /* Style the middle column */ 
 
 .middle { 
   grid-area: middle; 
-  background-color: #B10909;
+  background-color: #7d0909;
+  text-align: center;
 } 
 
 /* Style the right column */ 
 
 .right { 
   grid-area: right; 
-  background-color: #B10909;
+  background-color: #7d0909;
+  text-align: center;
 } 
 
 /* Style the footer */ 
 
 .footer { 
   grid-area: footer; 
-  background-color: #B10909;
+  background-color: #7d0909;
   padding: 10px; 
   text-align: center; 
 } 
@@ -87,7 +89,7 @@ body {
     button { 
         background-color: #B10909;
         color: #ffffff;
-        border: 1px solid #B10909;
+        border: 1px solid #7d0909;
         padding: 10px 20px; 
         cursor: pointer;
         font-size: 20px;
