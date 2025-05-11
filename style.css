@@ -92,17 +92,6 @@ body {
   text-align: center; 
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Centers everything */
-}
-
-.row {
-    display: flex;
-    justify-content: center; /* Spaces buttons evenly */
-    gap: 10px; /* Adds space between buttons */
-}
 
  
 
