@@ -67,11 +67,11 @@ body {
 /* The grid container */ 
 .grid-container { 
   display: grid; 
-  grid-template-columns: repeat(6, 2fr); /* Explicitly define six equal columns */ 
+  grid-template-columns: repeat(6, 7fr); /* Explicitly define six equal columns */ 
   grid-template-areas:  
     "header header header header header header"  
     "left left middle middle right right"
-    "lleft lleft mmiddle mmiddle rright rright"
+    "left left middle middle right right"
     "footer footer footer footer footer footer"; 
   gap: 10px; /* Use gap property for spacing between grid items */ 
 
