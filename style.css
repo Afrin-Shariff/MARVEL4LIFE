@@ -71,7 +71,7 @@ body {
   grid-template-areas:  
     "header header header header header header"  
     "left left middle middle right right"
-    "left left middle middle right right"
+    "lleft lleft mmiddle mmiddle rright rright"
     "footer footer footer footer footer footer"; 
   gap: 10px; /* Use gap property for spacing between grid items */ 
 
