@@ -18,18 +18,6 @@ body {
   font-size: 35px; 
 } 
 
-/* The grid container */ 
-
-.grid-container { 
-  display: grid; 
-  grid-template-columns: repeat(6, 1fr); /* Explicitly define six equal columns */ 
-  grid-template-areas:  
-    "header header header header header header"  
-    "left left middle middle right right"  
-    "footer footer footer footer footer footer";
-  gap: 10px; /* Use gap property for spacing between grid items */ 
-
-}  
 .left, 
 .middle, 
 .right { 
@@ -96,24 +84,25 @@ body {
 
 /* Responsive layout - stack columns on small screens */ 
 
-@media (max-width: 600px) { 
-  .grid-container { 
-    grid-template-columns: 1fr;  /* Single column for small screens */ 
-    grid-template-areas:  
-      "header"  
-      "left"  
-      "middle"  
-      "right"  
-      "footer"; 
+/* The grid container */ 
 
-  } 
+.grid-container { 
+  display: grid; 
+  grid-template-columns: repeat(6, 1fr); /* Explicitly define six equal columns */ 
+  grid-template-areas:  
+    "header header header header header header"  
+    "left left middle middle right right"  
+    "footer footer footer footer footer footer"; 
+  gap: 10px; /* Use gap property for spacing between grid items */ 
+
+}  
 
 } 
 
     button { 
-        background-color: #B10909;
-        color: #ffffff;
-        border: 1px solid #7d0909;
+        background-color: #800000;
+        color: #800000;
+        border: 1px solid #800000;
         padding: 10px 20px; 
         cursor: pointer;
         font-size: 20px;
