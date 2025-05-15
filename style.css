@@ -2,106 +2,83 @@
   box-sizing: border-box; 
 } 
 
-body { 
-
+body {
   font-family: Stencil Std;
   color: #ffffff
 } 
-
 /* Style the header */ 
-
 .header { 
   grid-area: header; 
   background-color: #7d0909;
   padding: 30px;
   text-align: center; 
   font-size: 35px; 
-} 
+}
 
 .left, 
 .middle, 
 .right { 
   padding: 10px; 
 } 
-
 /* Style the left column */ 
 .left { 
   grid-area: left; 
   background-color: #7d0909;
   text-align: center;
 } 
-
 /* Style the middle column */ 
-
 .middle { 
   grid-area: middle; 
   background-color: #7d0909;
   text-align: center;
 } 
-
 /* Style the right column */ 
-
 .right { 
   grid-area: right; 
   background-color: #7d0909;
   text-align: center;
 } 
-
 /* Style the left column */ 
 .bottom-left { 
   grid-area: "bottom-left"; 
   background-color: #7d0909;
   text-align: center;
 } 
-
 /* Style the middle column */ 
-
 .bottom-middle { 
   grid-area: "bottom-middle"; 
   background-color: #7d0909;
   text-align: center;
 } 
-
 /* Style the right column */ 
-
 .bottom-right { 
   grid-area: "bottom-right"; 
   background-color: #7d0909;
   text-align: center;
 }
-
 /* Style the footer */ 
-
 .footer { 
   grid-area: footer; 
   background-color: #7d0909;
   padding: 10px; 
   text-align: center; 
 }
-
-
- 
-
 /* Responsive layout - stack columns on small screens */ 
-
 /* The grid container */ 
-
 .grid-container { 
   display: grid; 
   grid-template-columns: repeat(6, 1fr); /* Explicitly define six equal columns */ 
   grid-template-areas:  
     "header header header header header header"  
-    "left left middle middle right right"  
+    "left left middle middle right right"
+    "bottom-left bottom-left bottom-middle bottom-middle bottom-right bottom-right"
     "footer footer footer footer footer footer"; 
   gap: 10px; /* Use gap property for spacing between grid items */ 
 
-}  
-
-} 
-
+}
     button { 
         background-color: #800000;
-        color: #800000;
+        color: #fffdfd;
         border: 1px solid #800000;
         padding: 10px 20px; 
         cursor: pointer;
