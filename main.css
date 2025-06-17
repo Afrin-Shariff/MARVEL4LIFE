@@ -27,7 +27,7 @@ text-transform: uppercase;
 
 img {
   position: absolute;
-  top: -650px; /* Adjust vertical positioning */
+  top: -700px; /* Adjust vertical positioning */
   left: 0%; /* Position it to start over the left section */
   width: 100%; /* Span across both sections */
   z-index: 2; /* Ensures the image appears above */
