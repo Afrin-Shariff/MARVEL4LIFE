@@ -1,0 +1,35 @@
+body{
+background-color: #7d0909;
+padding: 10px; 
+text-align: center;
+font-family: Papyrus;
+color: whitesmoke;
+text-transform: uppercase;
+}
+.container {
+  display: flex;
+  gap: 20px; /* Optional: adds spacing between the two */
+}
+
+.left-section, .right-section {
+  flex: 1; /* Makes them share space equally */
+  padding: 10px;
+  border: 10px solid #ccc; /* Just for visual clarity */
+}
+.container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 40px;
+}
+
+
+img {
+  position: absolute;
+  top: -650px; /* Adjust vertical positioning */
+  left: 0%; /* Position it to start over the left section */
+  width: 100%; /* Span across both sections */
+  z-index: 2; /* Ensures the image appears above */
+  opacity: 0.2;
+}
