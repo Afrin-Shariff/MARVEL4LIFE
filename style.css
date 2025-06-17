@@ -43,7 +43,24 @@ body {
   grid-area: right; 
   background-color: #7d0909;
   text-align: center;
-} 
+}
+
+.abc { 
+  grid-area: abc;
+  background-color: #7d0909;
+  text-align: center;
+}
+.def { 
+  grid-area: def;
+  background-color: #7d0909;
+  text-align: center; 
+}
+.ghi { 
+  grid-area: ghi;
+  background-color: #7d0909;
+  text-align: center; 
+}
+
 
 /* Style the footer */ 
 .footer { 
@@ -56,11 +73,24 @@ body {
 /* The grid container */ 
 .grid-container { 
   display: grid; 
-  grid-template-columns: repeat(6, 7fr); /* Explicitly define six equal columns */ 
+  grid-template-columns: repeat(6, 1fr); /* Explicitly define six equal columns */ 
+grid-template-areas:  
+  "header header header header header header"  
+  "left left middle middle right right"
+  "abc abc def def ghi ghi"
+  "footer footer footer footer footer footer"; 
+  gap: 10px; /* Use gap property for spacing between grid items */ 
+
+/* Responsive layout - stack columns on small screens */ 
+/* The grid container */ 
+.grid-container2.0 { 
+  display: grid; 
+  grid-template-columns: repeat(6, 6fr); /* Explicitly define six equal columns */ 
   grid-template-areas:  
     "header header header header header header"  
     "left left middle middle right right"
-    "footer footer footer footer footer footer"; 
+    "footer footer footer footer footer footer"
+    "abc abc def def ghi ghi"; 
   gap: 10px; /* Use gap property for spacing between grid items */ 
 
 }
