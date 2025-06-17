@@ -21,13 +21,13 @@ text-transform: uppercase;
   display: flex;
   justify-content: space-between;
   gap: 20px;
-  padding: 40px;
+  padding: 10px;
 }
 
 
 img {
   position: absolute;
-  top: -700px; /* Adjust vertical positioning */
+  top: -100px; /* Adjust vertical positioning */
   left: 0%; /* Position it to start over the left section */
   width: 100%; /* Span across both sections */
   z-index: 2; /* Ensures the image appears above */
