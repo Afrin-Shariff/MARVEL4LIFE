@@ -9,7 +9,7 @@ img {
   }
 
 body {
-  font-family: Stencil Std;
+  font-family: Papyrus;
   color: #ffffff
 } 
 /* Style the header */ 
@@ -101,4 +101,5 @@ grid-template-areas:
         padding: 10px 20px; 
         cursor: pointer;
         font-size: 20px;
+        font-family: Papyrus;
     }
