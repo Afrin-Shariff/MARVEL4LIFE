@@ -31,5 +31,11 @@ img {
   left: 0%; /* Position it to start over the left section */
   width: 100%; /* Span across both sections */
   z-index: 2; /* Ensures the image appears above */
-  opacity: 0.2;
+  opacity: 0.175;
+}
+
+button{
+  background-color:#7d0909;
+  color:aliceblue;
+  font: size 20px;
 }
