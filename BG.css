@@ -1,8 +1,8 @@
 img {
   position: absolute;
-  top: -100px; /* Adjust vertical positioning */
-  left: 0%; /* Position it to start over the left section */
-  width: 100%; /* Span across both sections */
+  top: 25px; /* Adjust vertical positioning */
+  left: 5%; /* Position it to start over the left section */
+  width: 90%; /* Span across both sections */
   z-index: 2; /* Ensures the image appears above */
   opacity: 0.175;
 }
@@ -10,4 +10,6 @@ body{
     text-align: center;
     background-color:#7d0909;
     color:white;
+    font-family: Papyrus;
+    font-size: 22px;
 }
