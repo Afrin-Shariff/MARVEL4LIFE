@@ -89,7 +89,7 @@ grid-template-areas:
   "header header header header header header"  
   "left left middle middle right right"
   "abc abc def def ghi ghi"
-  "footer footer footer footer footer footer"; 
+  "footer footer footer footer footer footer";
   gap: 10px; /* Use gap property for spacing between grid items */ 
 
 /* Responsive layout - stack columns on small screens */ 
